@@ -1,0 +1,1 @@
+This folder contains helpers specifically for testing the Menards application, which is based on the Paradigm Inspire application.

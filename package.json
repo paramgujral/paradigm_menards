@@ -1,0 +1,30 @@
+{
+  "name": "web-centerpoint-custom-fe-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "npx playwright codegen",
+    "test": "npx playwright test",
+    "debug": "npx playwright test --headed --timeout=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Paradigm/web-centerpoint-custom-fe-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Paradigm/web-centerpoint-custom-fe-tests#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.17.0",
+    "@playwright/test": "^1.21.1",
+    "@types/luxon": "^2.0.9",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.5",
+    "dotenv": "^15.0.0",
+    "luxon": "^2.3.0"
+  }
+}
